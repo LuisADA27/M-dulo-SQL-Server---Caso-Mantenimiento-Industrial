@@ -26,6 +26,7 @@ ________________________________________
 ##Generar reportes de contratos activos, mantenimientos pendientes y vencimientos próximos.
 
 
+
 Modelo Entidad Relación
 ![Modelo conceptual - Caso](https://github.com/user-attachments/assets/162cf003-3155-435a-9d5a-017d5ea33018)
 
