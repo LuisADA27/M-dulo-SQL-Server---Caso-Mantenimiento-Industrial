@@ -24,3 +24,7 @@ ________________________________________
 ##Registrar técnicos asignados a cada mantenimiento.
 
 ##Generar reportes de contratos activos, mantenimientos pendientes y vencimientos próximos.
+
+
+MODELO ENTIDAD RELACIÓN
+![Modelo conceptual - Caso](https://github.com/user-attachments/assets/7349ab73-cce8-4960-a510-3a1b8d2bb3ed)
