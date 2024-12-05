@@ -27,7 +27,7 @@ ________________________________________
 
 
 Modelo Entidad Relación
-![Modelo conceptual - Caso](https://github.com/user-attachments/assets/7349ab73-cce8-4960-a510-3a1b8d2bb3ed)
+![Modelo conceptual - Caso](https://github.com/user-attachments/assets/162cf003-3155-435a-9d5a-017d5ea33018)
 
 Modelo Lógico
 ![Modelo Lógico](https://github.com/user-attachments/assets/57111b2b-b5d0-4437-8a94-cca253f6cdbd)
