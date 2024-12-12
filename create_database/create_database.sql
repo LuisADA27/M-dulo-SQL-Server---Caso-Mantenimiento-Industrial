@@ -1,0 +1,2 @@
+CREATE DATABASE DSRP_caso_mantenimiento_industrial;
+GO
