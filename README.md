@@ -10,7 +10,7 @@ inspecciones y reparaciones. Se necesita un sistema para organizar y administrar
 información y optimizar la gestión de los recursos.
 ________________________________________
 
-##Requerimientos Funcionales:
+Requerimientos Funcionales:
 
 ##Registrar información básica de los clientes (nombre, dirección, persona de contacto, teléfono, correo).
 
