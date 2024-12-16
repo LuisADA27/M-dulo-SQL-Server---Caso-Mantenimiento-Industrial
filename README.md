@@ -1,6 +1,7 @@
 # M-dulo-SQL-Server---Caso-Mantenimiento-Industrial
 
 ##Tema: Mantenimiento Industrial
+
 ##Caso: Empresa que brinda servicios de mantenimiento
 
 Una empresa especializada en brindar servicios de mantenimiento industrial gestiona los contratos de mantenimiento para sus clientes que provienen de distintos rubros, 
