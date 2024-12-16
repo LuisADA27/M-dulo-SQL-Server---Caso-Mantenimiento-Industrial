@@ -1,6 +1,7 @@
 # M-dulo-SQL-Server---Caso-Mantenimiento-Industrial
 
 ##Tema: Mantenimiento Industrial
+
 ##Caso: Empresa que brinda servicios de mantenimiento
 
 Una empresa especializada en brindar servicios de mantenimiento industrial gestiona los contratos de mantenimiento para sus clientes que provienen de distintos rubros, 
@@ -9,7 +10,7 @@ inspecciones y reparaciones. Se necesita un sistema para organizar y administrar
 información y optimizar la gestión de los recursos.
 ________________________________________
 
-##Requerimientos Funcionales:
+Requerimientos Funcionales:
 
 ##Registrar información básica de los clientes (nombre, dirección, persona de contacto, teléfono, correo).
 
@@ -25,11 +26,17 @@ ________________________________________
 
 ##Generar reportes de contratos activos, mantenimientos pendientes y vencimientos próximos.
 
+________________________________________
 
-
-Modelo Entidad - Relación
+Modelo Entidad - Relación:
 ![Modelo conceptual - Caso](https://github.com/user-attachments/assets/162cf003-3155-435a-9d5a-017d5ea33018)
 
-Modelo Lógico
+________________________________________
+
+Modelo Lógico:
 ![Modelo Lógico](https://github.com/user-attachments/assets/68b868e9-1972-46cb-9584-859f06ed0e69)
 
+________________________________________
+
+Modelo Físico:
+![image](https://github.com/user-attachments/assets/0a786656-88fd-4b32-a539-88f09f476942)
