@@ -86,3 +86,38 @@ SELECT
 FROM Equipos e JOIN Mantenimientos m ON e.id = m.equipos_id
 GROUP BY e.marca, e.modelo
 ORDER BY TotalMantenimientos DESC;
+
+--Mantenimiento más reciente por cada equipo
+SELECT 
+    e.marca AS MarcaEquipo,
+    e.modelo AS ModeloEquipo,
+    MAX(m.fecha_ejecutada) AS UltimoMantenimiento
+FROM Equipos e JOIN Mantenimientos m ON e.id = m.equipos_id
+GROUP BY e.marca, e.modelo;
+
+--Procedimiento almacenado
+CREATE PROCEDURE RegistrarMantenimientoSimple
+    @ContratoID INT,
+    @EquipoID INT,
+    @FechaProgramada DATE,
+    @FechaEjecutada DATE,
+    @TipoMantenimiento NVARCHAR(50),
+    @Comentarios NVARCHAR(MAX)
+AS
+BEGIN
+    INSERT INTO Mantenimientos (contrato_id, equipos_id, fecha_programada, fecha_ejecutada, tipo_mantenimiento, comentarios)
+    VALUES (@ContratoID, @EquipoID, @FechaProgramada, @FechaEjecutada, @TipoMantenimiento, @Comentarios);
+
+    PRINT 'Mantenimiento registrado exitosamente.';
+END;
+
+--llamada al procedimiento
+EXEC RegistrarMantenimientoSimple
+    @ContratoID = 4,
+    @EquipoID = 3,
+    @FechaProgramada = '2024-03-10',
+    @FechaEjecutada = '2024-03-15',
+    @TipoMantenimiento = 'preventivo',
+    @Comentarios = 'Equipo revisado y en óptimas condiciones';
+
+	SELECT * FROM Mantenimientos WHERE contrato_id = 4;
